@@ -41,7 +41,7 @@ function Home() {
   }
   return (
     <div>
-        <div className="container">
+        <div className="containerrr">
         <div className='header'>
           <div className='logo'>
             <img src={logo} className='logoimg' alt='logo'/>

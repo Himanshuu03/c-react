@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -37,7 +39,7 @@
   }
 }
 
-.container{
+.containerrr{
   width: 1200px;
   margin: 0 auto;
   background-color: #d0e7d2;
@@ -49,6 +51,7 @@
   font-size: larger;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .logoimg{
   width: 70px;
@@ -75,3 +78,4 @@ button:hover{
   background-color: #618264;
   color: #d0e7d2;
 }
+/* The following line can be included in a src/App.scss */
