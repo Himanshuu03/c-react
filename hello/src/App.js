@@ -12,13 +12,13 @@ function App() {
 
   return (
     <div>
+      <Home/>
       <Link to="/">
       <button>
         Home
       </button>
       </Link>
       <Routes>
-        <Route path='/' element={<Home/>}/>
         <Route path="/about-us" element={<Aboutus/>}/>
         <Route path="/contact" element={<ContactUs/>}/>
         <Route path="/services" element={<Services/>}/>
