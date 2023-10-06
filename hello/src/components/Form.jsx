@@ -22,21 +22,25 @@ function Form() {
     <div class="form-group">
     <label for="fullname">Email address</label>
     <input type="name" class="form-control" name="fullname" value={data.fullname} onChange={changeHandler}/>
+    <h2>{data.fullname}</h2>
     </div>
 
     <div class="form-group">
     <label for="email">Email address</label>
     <input type="email" class="form-control" name="email" value={data.email} placeholder="name@example.com" onChange={changeHandler}/>
+    <h2>{data.email}</h2>
     </div>
 
     <div class="form-group">
     <label for="address">Address</label>
     <input type="text" class="form-control" name="address" value={data.address} placeholder="1234 Main St" onChange={changeHandler}/>
+    <h2>{data.address}</h2>
     </div>
 
     <div class="form-group">
     <label for="query">Query</label>
     <input type="text" class="form-control" name="query" value={data.query} onChange={changeHandler}/>
+    <h2>{data.query}</h2>
     </div>
 
     <button
@@ -58,15 +62,15 @@ function Form() {
     {
         data.state ? (
             <div>
-                <h1>Name : {data.fullname}</h1>
-                <h1>Email : {data.email}</h1>
-                <h1>Address : {data.address}</h1>
-                <h1>Query : {data.query}</h1>
+                <h2>Name : {data.fullname}</h2>
+                <h2>Email : {data.email}</h2>
+                <h2>Address : {data.address}</h2>
+                <h2>Query : {data.query}</h2>
             </div>
         ) :
         (
             <div>
-                <h1>No Data</h1>
+                <h2>No Data</h2>
             </div>
         )
     }
