@@ -7,7 +7,7 @@ function ContactUs() {
         <div className='aboutUs'> 
              <p>Hello this is Contactus Page</p>
        </div>
-       <form class="row g-3">
+       <form class="row g-3 container">
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Email</label>
     <input type="email" class="form-control" id="inputEmail4" />
